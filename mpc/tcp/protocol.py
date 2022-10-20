@@ -118,7 +118,6 @@ class Session(object):
 		ack.print()
 
 		# read second server ack
-		
 		ack = Ack.from_reader(self.sock) 
 		print("< server.", end='')
 		ack.print()
